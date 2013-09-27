@@ -11,7 +11,7 @@ if [ -d "$dir_project" ] ; then
     rm tags
     ctags -R --sort=1 --c++-kinds=+p --fields=+iaS --extra=+q --languages=C++,c,java  ./src/*
 fi
-dir_project=~/workspace/src/Jelly
+dir_project=~/workspace/src/Android
 if [ -d "$dir_project" ] ; then
     cd $dir_project
     rm tags
